@@ -1,0 +1,21 @@
+touch : 파일 생성
+README.rd :
+# - 대주제 ## - 소주제 * - 순서 없는 리스트 숫자 n - 순서 있는 리스트 생성
+작성 시에 자동으로 목차 생성됨.
+
+git bash에서
+
+맨 처음에 git clone 해오고
+git pull - 최신 git 가져옴
+git add - 파일 올리기, git add . 는 모든 파일 올리기
+git commit - 업데이트 .git에다가
+git push - 아예 서버 같은 곳에 저장
+
+git status - untracked 파일 (add가 안 된 거) 확인 가능... 등등 status 보기
+git diff - 변경 사항 확인
+git log - 커밋 히스토리 조회!
+
+.gitignore - 레파지토리에 올릴 필요없는 파일들 걸러내기
+
+gitignore.io 같은 게 있어서 모듈 같은 거 안 올리게 하는 코드 생성해줌
+
