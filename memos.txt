@@ -16,6 +16,17 @@ git diff - 변경 사항 확인
 git log - 커밋 히스토리 조회!
 
 .gitignore - 레파지토리에 올릴 필요없는 파일들 걸러내기
-
 gitignore.io 같은 게 있어서 모듈 같은 거 안 올리게 하는 코드 생성해줌
+
+git branch - 브랜치 생성
+git branch -d - 브랜치 삭제
+
+git checkout - 브랜치로 이동
+git restore ~ - 수정된 걸 수정 전으로 되돌리기
+
+git merge - 병합!
+git checkout main 한 후에 merge
+그리고 git push origin main 하면 최종 병합된다
+
+충돌 일어나면 X - 하나 선택해야 함
 
